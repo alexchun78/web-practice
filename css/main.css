@@ -215,7 +215,7 @@ header .main-menu .item:hover .item__contents .contents__menu > ul > li ul li{
   cursor: pointer;
 }
 header .main-menu .item:hover .item__contents .contents__menu > ul > li ul li:hover{
-color: #669900;
+  color: #669900;
 }
 header .main-menu .item:hover .item__contents .contents__texture{  
   padding:26px 0;
@@ -388,6 +388,11 @@ header .badges .badge{
   height: 693px;
   background-color: #f6f5ef;
   position:relative;
+  transition: height 0.4s;
+  overflow: hidden;
+}
+.notice .promotion.hide{
+  height: 0px;
 }
 .notice .promotion .swiper{
   width: calc(819px * 3 + 20px);
@@ -447,7 +452,6 @@ header .badges .badge{
   justify-content: center;
   align-items: center;
   transition: .4s;
-
 }
 .notice .promotion .swiper-button-next::after, 
 .notice .promotion .swiper-button-prev::after {
