@@ -910,10 +910,10 @@ header .badges .badge {
   margin: auto;
 }
 .awards .swiper-button-prev{
-  left:-100px;
+  left: -100px;
 }
 .awards .swiper-button-next {
-  right:-100px;
+  right: -100px;
 }
 
 .awards .swiper-button-next::after,
